@@ -2,221 +2,227 @@
 
 /* *Global Style */
 html {
-	font-size: 1rem;
+  font-size: 1rem;
 }
 
 body {
-	background-color: rgb(224, 224, 224);
-	font-family: 'Source Code Pro', monospace;
-	text-align: left;
+  background-color: rgb(224, 224, 224);
+  font-family: 'Source Code Pro', monospace;
+  text-align: left;
 }
 
 /* *Typography */
 
 h1 {
-	font-family: 'Source Code Pro';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 3rem;
-	line-height: 3.75rem;
-	text-align: center;
-	color: #282828;
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 3.75rem;
+  text-align: center;
+  color: #282828;
 }
 
 h2 {
-	font-family: 'Source Code Pro';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 1.5rem;
-	line-height: 1.875rem;
-	color: #282828;
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  color: #282828;
 }
 
 button {
-	font-family: 'Source Code Pro';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 1.5rem;
-	line-height: 1.875rem;
-	text-align: center;
-	color: #ffffff;
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  text-align: center;
+  color: #ffffff;
 
-	/* ? Button Appearance: */
+  /* ? Button Appearance: */
 
-	background: #383838;
-	border: 1px solid #383838;
-	box-shadow: 6px 6px 0px #000000;
+  background: #383838;
+  border: 1px solid #383838;
+  box-shadow: 6px 6px 0px #000000;
 }
 
 h3 {
-	font-family: 'Source Code Pro';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 1rem;
-	line-height: 1.25rem;
-	color: #282828;
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  color: #282828;
 }
 
 p {
-	font-family: 'Source Code Pro';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 1rem;
-	line-height: 1.25rem;
-	color: #282828;
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  color: #282828;
 }
 
 p span {
-	font-family: 'Source Code Pro';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 1rem;
-	line-height: 1.25rem;
-	color: #282828;
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  color: #282828;
 }
 
 label {
-	font-family: 'Source Code Pro';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 1rem;
-	line-height: 1.25rem;
-	color: #282828;
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  color: #282828;
 }
 
 .checkbox-label {
-	font-family: 'Source Code Pro';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 1rem;
-	line-height: 1.25rem;
-	color: #282828;
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  color: #282828;
 }
 
 /* *Main */
 
 .app {
-	margin-top: 11.5rem;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	justify-items: center;
-	align-self: center;
-	flex-direction: column;
-	align-content: stretch;
-	align-items: center;
+  margin-top: 11.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-self: center;
+  flex-direction: column;
+  align-content: stretch;
+  align-items: center;
 }
 
 .app > * {
-	width: 60%;
+  width: 60%;
 }
 
 .heading {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-start;
-	align-items: flex-start;
-	margin-bottom: 3.5rem;
-	width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 3.5rem;
+  width: 60%;
 }
 
 .password {
-	display: flex;
-	flex-direction: row;
-	gap: 3.875rem;
-	align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  gap: 3.875rem;
+  align-items: flex-start;
 }
 
 .output {
-	display: flex;
-	flex-direction: row;
-	gap: 2rem;
-	width: 37.5rem;
-	margin-bottom: 1.5rem;
-	justify-content: space-between;
-	padding: 10px 18px;
-	background: #ffffff;
-	border: 1px solid #282828;
-	box-shadow: 6px 6px 0px #000000;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  width: 37.5rem;
+  margin-bottom: 1.5rem;
+  justify-content: space-between;
+  padding: 10px 18px;
+  background: #ffffff;
+  border: 1px solid #282828;
+  box-shadow: 6px 6px 0px #000000;
 }
 
 .button-generate {
-	margin-top: 0.65rem;
+  margin-top: 0.65rem;
 }
 
 .feedback {
-	display: flex;
-	flex-direction: column;
-	gap: 0.5rem;
-	align-items: flex-start;
-	margin-bottom: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-start;
+  margin-bottom: 2.5rem;
 }
 
 .parameters {
-	display: flex;
-	flex-direction: column;
-	gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .form-up {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	gap: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
 .label-length-name {
-	flex: 2;
+  flex: 2;
 }
 
 .label-length-num {
-	flex: 1;
+  flex: 1;
 }
 
 .input-slider {
-	flex: 5;
+  flex: 5;
 }
 
 .form-down {
-	display: flex;
-	flex-direction: row;
-	gap: 10rem;
+  display: flex;
+  flex-direction: row;
+  gap: 10rem;
 }
 
 .form-down-name {
-	flex: 2;
+  flex: 2;
 }
 
 .form-down-checkboxes {
-	flex: 5;
-	padding: 0 1rem;
+  flex: 5;
+  padding: 0 1rem;
 }
 
 .checkbox {
-	height: 1.5rem;
-	width: 1.5rem;
-	background: #282828;
-	border: 1px solid #282828;
-	flex: none;
-	order: 0;
-	flex-grow: 0;
+  height: 1.5rem;
+  width: 1.5rem;
+  background: #282828;
+  border: 1px solid #282828;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .checkbox-label {
-	flex: none;
-	order: 1;
-	flex-grow: 0;
-	font-size: 1.2rem;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  font-size: 1.2rem;
 }
 
 /* *Animations */
 button:hover {
-	color: #000;
-	background-color: #fff;
+  color: #000;
+  background-color: #fff;
+  cursor: pointer;
 }
 
 #copy-button:active {
-	background: rgb(3, 251, 3);
+  background: rgb(3, 251, 3);
+  cursor: pointer;
+}
+
+input {
+  cursor: pointer;
 }
 
 /* *Media */

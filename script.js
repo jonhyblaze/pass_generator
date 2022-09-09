@@ -15,7 +15,7 @@ console.log(body)
 
 // * Selecting checkboxes
 
-const lovercaseCheckbox = document.querySelector('#checkbox-abc')
+const lowercaseCheckbox = document.querySelector('#checkbox-abc')
 const uppercaseCheckbox = document.querySelector('#checkbox-ABC')
 const numbersCheckbox = document.querySelector('#checkbox-123')
 const symbolsCheckbox = document.querySelector('#checkbox-sym')
@@ -33,8 +33,8 @@ slider.addEventListener('change', sliding)
 // ? Generator function
 
 function generator(length) {
-  let generatedPassword= []
-  let set;
+  let generatedPassword = []
+  let set = ''
   const lowercase = 'abcdefghijklmnopqrstuvwxyz'
   const uppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
   const numbers = '0123456789'
@@ -42,7 +42,7 @@ function generator(length) {
   
   // ? checking the checkboxes
 
-  if (lovercaseCheckbox.checked === true) {
+  if (lowercaseCheckbox.checked === true) {
     set += lowercase
   }
 

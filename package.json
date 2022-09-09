@@ -1,4 +1,20 @@
 {
   "main": "script.js",
-  "type": "module"
+  "type": "module",
+  "prettier": {
+    "semi": false,
+    "tabWidth": 2,
+    "useTabs": false,
+    "printWidth": 120,
+    "endOfLine": "auto",
+    "singleQuote": true,
+    "arrowParens": "avoid",
+    "bracketSpacing": true,
+    "trailingComma": "none",
+    "quoteProps": "as-needed",
+    "jsxBracketSameLine": false
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
 }

@@ -1,94 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<link rel="stylesheet" href="reset.css" />
-		<link rel="stylesheet" href="style.css" />
-		<title>Password Generator Tool</title>
-	</head>
 
-	<body>
-		<div class="app">
-			<div class="heading">
-				<h1>Generate secure password</h1>
-			</div>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="stylesheet" href="reset.css" />
+	<link rel="stylesheet" href="style.css" />
+	<title>Password Generator Tool</title>
+</head>
 
-			<div class="password">
-				<div class="output">
-					<h2 id="output"></h2>
-					<div class="button-copy"><button id="copy-button">Copy</button></div>
+<body>
+	<div class="app">
+		<div class="heading">
+			<h1>Password generator</h1>
+		</div>
+
+		<div class="password">
+			<div class="output">
+				<h2 id="output"></h2>
+				<div class="button-copy" id="copy-button">
 				</div>
-				<div class="button-generate"">
+			</div>
+			<div class="button-generate"">
 					<button id="button">Generate</button>
-				</div>
-			</div>
-
-			<div class="feedback">
-				<h3>Very weak</h3>
-				<p>It would take computer <span>0.4 seconds</span> to crack it</p>
-			</div>
-
-			<div class="parameters">
-				<div class="form-up">
-					<label for="length" class="label-length-name">Password length:</label>
-					<label for="length" id="length-label" class="label-length-num"
-						>0</label
-					>
-					<input
-						type="range"
-						id="length"
-						name="length"
-						class="input-slider"
-						min="0"
-						max="24"
-					/>
-				</div>
-
-				<div class="form-down">
-					<div class="form-down-name">
-						<label for="checkbox-abc">Character set:</label>
-					</div>
-
-					<div class="form-down-checkboxes">
-						<input
-							type="checkbox"
-							name="checkbox-ABC"
-							id="checkbox-ABC"
-							checked=""
-							class="checkbox"
-						/>
-						<label for="checkbox-ABC" class="checkbox-label">ABC</label>
-						<input
-							type="checkbox"
-							name="checkbox-abc"
-							id="checkbox-abc"
-							checked=""
-							class="checkbox"
-						/>
-						<label for="checkbox-abc" class="checkbox-label">abc</label>
-						<input
-							type="checkbox"
-							name="checkbox-123"
-							id="checkbox-123"
-							checked=""
-							class="checkbox"
-						/>
-						<label for="checkbox-123" class="checkbox-label">123</label>
-						<input
-							type="checkbox"
-							name="checkbox-sym"
-							id="checkbox-sym"
-							checked=""
-							class="checkbox"
-						/>
-						<label for="checkbox-sym" class="checkbox-label">#$&</label>
-					</div>
-				</div>
 			</div>
 		</div>
 
-		<script type=module src="script.js"></script>
-	</body>
+		<div class="feedback">
+			<h3 id="power">Very weak</h3>
+			<p id="description">It would take computer <span id="time-to-crack">0.4 seconds</span> to crack it</p>
+		</div>
+
+		<div class="parameters">
+			<div class="form-up">
+				<label for="length" class="label-length-name">Password length:</label>
+				<label for="length" id="length-label" class="label-length-num">0</label>
+				<input type="range" id="length" name="length" class="input-slider" min="0" max="24" />
+			</div>
+
+			<div class="form-down">
+				<div class="form-down-name">
+					<label for="checkbox-abc">Character set:</label>
+				</div>
+
+				<div class="form-down-checkboxes">
+					<input type="checkbox" name="checkbox-ABC" id="checkbox-ABC" checked="" class="checkbox" />
+					<label for="checkbox-ABC" class="checkbox-label">ABC</label>
+					<input type="checkbox" name="checkbox-abc" id="checkbox-abc" checked="" class="checkbox" />
+					<label for="checkbox-abc" class="checkbox-label">abc</label>
+					<input type="checkbox" name="checkbox-123" id="checkbox-123" checked="" class="checkbox" />
+					<label for="checkbox-123" class="checkbox-label">123</label>
+					<input type="checkbox" name="checkbox-sym" id="checkbox-sym" checked="" class="checkbox" />
+					<label for="checkbox-sym" class="checkbox-label">#$&</label>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type=module src="script.js"></script>
+</body>
 </html>

@@ -93,6 +93,15 @@ label {
   color: #282828;
 }
 
+/* * Colors */
+
+:root {
+  --lowest-security-color: rgb(155, 20, 20);
+  --low-security-color: crimson;
+  --good-security-color: rgb(57, 231, 57);
+  --highest-security-color: #4436c9; 
+}
+
 /* *Main */
 
 .app {
@@ -107,7 +116,7 @@ label {
   align-items: center;
 }
 
-.app > * {
+.app>* {
   width: 60%;
 }
 
@@ -138,6 +147,15 @@ label {
   background: #ffffff;
   border: 1px solid #282828;
   box-shadow: 6px 6px 0px #000000;
+}
+
+.button-copy {
+  background-image: url('/assets/svg/copy-lt.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
 }
 
 .button-generate {
@@ -217,7 +235,7 @@ button:hover {
 }
 
 #copy-button:active {
-  background: rgb(3, 251, 3);
+  opacity: .5;
   cursor: pointer;
 }
 
@@ -226,3 +244,10 @@ input {
 }
 
 /* *Media */
+
+@media (max-width: 860px) {
+
+  .password {
+    flex-direction: column;
+  }
+}

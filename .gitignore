@@ -1,3 +1,5 @@
 .prettierrc
 generator.js
 .nova
+node_modules
+.vscode

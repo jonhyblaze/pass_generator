@@ -75,20 +75,46 @@ generateButton.addEventListener('click', function () {
   output.value = generator(slider.value)
   output.innerHTML = output.value
 
-  if (slider.value < 4) {
-    body.style.background = '#aaaaad'
+  if (slider.value < 2) {
+    body.style.background = 'crimson'
     power.innerHTML = 'This is silly'
     crackTime.innerHTML = 'no time'
   }
-  
-  if (slider.value > 3 && slider.value < 6) {
+
+  if (slider.value  > 2 && slider.value < 4) {
     body.style.background = 'crimson'
-    power.innerHTML = 'This password is a piece of cake'
-    crackTime.innerHTML = 'less than 1 second'
+    power.innerHTML = 'About as weak as it can get'
+    crackTime.innerHTML = 'less than few nano seconds'
   }
-  if (slider.value > 5 && slider.value < 12) {
-    body.style.background = 'orange'
-    power.innerHTML = 'You can do better'
+
+  
+  if (slider.value >= 4 && slider.value < 6) {
+    body.style.background = 'crimson'
+    power.innerHTML = `It's funny`
+    crackTime.innerHTML = 'an instance'
+  }
+
+  if (slider.value >= 6 && slider.value < 8) {
+    body.style.background = '#FF6E5A'
+    power.innerHTML = 'This password is a remarkable gift for hackers'
+    crackTime.innerHTML = 'a blink of an eye'
+  }
+
+  if (slider.value > 8 && slider.value < 10) {
+    body.style.background = '#FFB054'
+    power.innerHTML = 'This password is a piece of cake'
+    crackTime.innerHTML = 'less than a minute'
+  }
+
+  if (slider.value === 9) {
+    body.style.background = '#FFB054'
+    power.innerHTML = 'This password is barely an issue'
+    crackTime.innerHTML = 'less than a minute'
+  }
+
+  if (slider.value > 9 && slider.value < 12) {
+    body.style.background = '#FFDA55'
+    power.innerHTML = 'This password could be annoying'
     crackTime.innerHTML = 'less than 1 hour'
   }
   if (slider.value > 11 && slider.value < 16) {
